@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Reserva de Alojamientos</title>
+		<link rel="stylesheet" href="./src/global.css" />
+	</head>
+	<body>
+		<noscript> You need to enable JavaScript to run this app. </noscript>
+		<div id="app"></div>
+
+		<!-- CDN para ejecucion de ECMAScript6, React y Babel-->
+		<script
+			crossorigin
+			src="https://unpkg.com/react@16/umd/react.development.js"
+		></script>
+		<script
+			crossorigin
+			src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
+		></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+
+		<!-- React Components -->
+		<script
+			type="text/babel"
+			data-plugins="transform-es2015-modules-umd"
+			src="./src/components/hotels.js"
+		></script>
+		<script
+			type="text/babel"
+			data-plugins="transform-es2015-modules-umd"
+			src="./src/components/header.js"
+		></script>
+		<script
+			type="text/babel"
+			data-plugins="transform-es2015-modules-umd"
+			src="./src/components/forms.js"
+		></script>
+		<script
+			type="text/babel"
+			data-plugins="transform-es2015-modules-umd"
+			src="./src/components/app.js"
+		></script>
+		<script
+			type="text/babel"
+			data-plugins="transform-es2015-modules-umd"
+			src="./src/index.js"
+		></script>
+	</body>
+</html>
